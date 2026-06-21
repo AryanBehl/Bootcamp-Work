@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-1</title>
+</head>
+<body>
+    <!-- HTML TAGS
+    <h1>Hello World</h1>
+    <br>
+    <p>Hello, I am pursuing a career in web development.</p>
+    <br>
+    <img src="data:image/webp;base64,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" alt="Notebook Image">
+    <br>
+    <a target="blank" href="https://www.google.com">Google</a>
+    <br> 
+     TEXT FORMATTING TAGS -->
+    <center>
+    <u>UNDERLINE</u>
+    <br>
+    <b>BOLD TEXT</b>
+    <br>
+    <i>ITALIC TEXT</i>
+    <br>
+    a <sup>b</sup>
+    <br>
+    <pre>formatting</pre>
+    <br>
+    <s>100</s> 10
+    <br>
+    </center>
+
+    <!-- HTML LIST -->
+    <h1>UNORDERED LIST</h1>
+    <ul type="circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <br>
+    <h1>ORDERED LIST</h1>
+    <ol type="a">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ol> -->
+    <!-- <br> 
+
+    <!-- HTML TABLE -->
+    <center>
+        <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td colspan="2">Chintu</td> -->
+                <!-- <td>10</td> -->
+            <!-- </tr>
+
+            <tr> -->
+                <!-- <td>2</td> -->
+                <!-- <td>Mintu</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+
+    <!-- FORMS IN HTML -->
+    <center>
+        <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter your age" required>
+        <br><br>
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob" required>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="language">Language:</label>
+        <input type="checkbox" name="language" id="english" value="english">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" name="language" id="hindi" value="hindi">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="language" id="html" value="html">
+        <label for="english">English</label>
+        <br><br>
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+            <option value="web development">Web Development</option>
+            <option value="data science">Data Science</option>
+            <option value="cyber security">Cyber Security</option>
+        </select>
+        <br><br>
+        <label for="feedback">Summary:</label>
+        <textarea name="feedback" id="feedback" placeholder="Enter your Feedback"></textarea>
+        <br><br>
+        <button type="submit">Submit</button> -->
+        <!-- <input type="submit" value="Submit"> -->
+        <!-- <button type="reset">Reset</button> -->
+        <!-- <input type="reset" value="Reset"> -->
+    <!-- </form> -->
+    <!-- </center>
+
+    <!-- SEMANTIC TAGS -->
+    <nav>I am nav bar</nav>
+    <main>
+        <section>One</section>
+        <section>Two</section>
+        <section>Three</section>
+    </main>
+    <footer>I am footer page</footer>
+
+    <!-- MULTI-MEDIA TAGS -->
+    <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+    <br>
+    <video poster="https://picsum.photos/536/354" controls src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>

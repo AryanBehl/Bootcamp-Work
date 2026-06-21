@@ -1,0 +1,227 @@
+/* CSS GRID
+.cont{
+    background-color: teal;
+    padding: 20px;
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px; */
+    /* grid-template-rows: 50px 100px 200px; */
+    /* grid-template-columns: repeat(3, 1fr);  fr maths formula fr=fraction */
+    /* gap: 10px;
+    row-gap: 10px; */
+    /* grid-template-areas: "one one three"
+    "four five five"
+    "four eight nine"; */
+/* } */
+
+/* .cont>div{
+    padding: 20px;
+}
+
+#one{
+    background-color: red;
+    grid-area: one;
+}
+
+#two{
+    background-color: aqua;
+    grid-area: two;
+}
+
+#three{
+    background-color: yellow;
+    grid-area: three;
+}
+
+#four{
+    background-color: aquamarine;
+    grid-area: four;
+}
+
+#five{
+    background-color: bisque;
+    grid-area: five;
+}
+
+#six{
+    background-color: blue;
+    grid-area: six;
+}
+
+#seven{
+    background-color: brown;
+    grid-area: seven;
+}
+
+#eight{
+    background-color: chartreuse;
+    grid-area: eight;
+}
+
+#nine{
+    background-color: blueviolet;
+    grid-area: nine;
+} */ 
+
+/* RESPONSIVE WEB DESIGN */
+/* .cont{
+    background-color: red;
+    height: 100vh;
+}
+
+@media screen and (max-width:1000px) and (min-width:600px) {
+    .cont{
+        background-color: black;
+    }
+} */
+
+/* CSS POSITION */
+/* .cont{
+    height: 1200px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.cont>div{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#static{
+    position: static;
+    top: 40px;
+    left: 50px;
+    background-color: aqua;
+}
+
+#relative{
+    position: relative;
+    top: 5px;
+    left: 50px;
+    background-color: yellow;
+}
+
+#absolute{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    background-color: gray;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: purple
+}
+
+#sticky{
+    position: sticky;
+    top: 50px;
+    /* left: 50px; */
+    /* background-color: black; */
+    /* color: white;
+}  */
+
+/* PSEUDO CLASS */
+/* button:hover{
+    background-color: aquamarine;
+}
+
+button:active{
+    background-color: orange;
+}
+
+input:focus{
+    border:1px solid red;
+    background-color: red;
+}
+
+input:checked+label{
+    color: green;
+}
+
+input:disabled{
+    background-color: teal;
+} */
+
+/* PSEUDO ELEMENT */
+/* p::before{
+    content: "❤️"
+}
+
+p::after{
+    content:"👌"
+}
+
+h3::first-letter{
+    color:red;
+    font-size: 30px;
+}
+
+h3::first-line{
+    color: aquamarine;
+} */
+
+/* CSS TRANSITION */
+
+/* .cont{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+}
+
+.cont:hover{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 50%;
+} */
+
+/* CSS TRANSFORM */
+/* .outer{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: relative;
+} */
+
+/* .inner{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow; */
+    /* transform: scale(.5);
+    transform: rotate(30deg); */
+    /* transform: skew(30deg); */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+/* } */
+
+/* CSS ANIMATIONS */
+/* .cont{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-delay:1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 20;
+    animation-play-state: running;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+} */

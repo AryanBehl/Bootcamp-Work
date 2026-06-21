@@ -1,0 +1,108 @@
+/* h1{
+    color: green;
+}
+
+h2{
+    background-color: #ff0b10;
+    color: white;
+} */
+
+/* p{ */
+    /* color: red;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: #f0f0f0; */
+    /* font-size: 20px;
+    font-weight: bold;
+    font-family: cabri, sans-serif; */
+    /* font-size: 30px;
+    font-size: 3em;
+    font-size: 4rem;
+    border: 1px solid red;
+    width: 50%;
+    height: 10vh; */
+/* } */
+
+/* h3{
+    background-color: yellow;
+}
+
+#para1{
+    color: red;
+    background-color: #f0f0f0;
+}
+
+.w1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+*{
+    border: 1px solid red;
+} */
+
+/* .w1{
+    color: red;
+    background-color: #f0f0f0;
+} */
+
+/* .content{
+    border: 1px dotted red;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    color: aqua;
+} */
+
+
+
+
+
+
+
+
+
+/* CSS FLEXBOX */
+.cont>div {
+    width: 50px;
+    border: 1px solid red;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.cont>div:nth-child(1){
+    background-color: red;
+    order: 3;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* flex-basis: 100px; */
+}
+
+.cont>div:nth-child(2){
+    background-color: green;
+    order: 2;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.cont>div:nth-child(3){
+    background-color: blue;
+    order: 1;
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+
+.cont{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    /* height: 500px; */
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    flex-wrap: wrap;
+}
